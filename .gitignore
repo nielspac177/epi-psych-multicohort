@@ -1,0 +1,61 @@
+# Data files — must NOT be shared under MIMIC-IV / NIS / BWH data-use agreements
+*.csv
+*.parquet
+*.duckdb
+*.db
+*.sav
+*.sas7bdat
+*.xlsx
+*.xls
+*.rds
+*.RData
+*.Rhistory
+*.pkl
+*.pickle
+*.feather
+*.arrow
+data/
+raw/
+cache/
+output/
+tables/
+results*/
+figures*/
+psm_results/
+overleaf*/
+NIS_epy_surg_pub_figures/
+report_figures_v2/
+
+# macOS metadata
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# R
+.Rproj.user/
+.Rhistory
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.pdf
+
+# Secrets
+.env
+*.key
+*_key*
